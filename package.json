@@ -11,7 +11,11 @@
   },
   "dependencies": {
     "react": "16.11.0",
-    "react-native": "0.62.2"
+    "react-native": "0.62.2",
+    "react-native-gimbal": "../react-native-gimbal-sdk",
+    "react-native-permissions": "^2.1.5",
+    "urbanairship-gimbal-adapter-react-native": "^1.1.1",
+    "urbanairship-react-native": "^6.1.3"
   },
   "devDependencies": {
     "@babel/core": "^7.9.6",

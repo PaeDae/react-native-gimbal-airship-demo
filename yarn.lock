@@ -5485,6 +5485,14 @@ react-is@^16.12.0, react-is@^16.8.1, react-is@^16.8.4, react-is@^16.8.6:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
+react-native-gimbal@../react-native-gimbal-sdk:
+  version "1.0.0"
+
+react-native-permissions@^2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/react-native-permissions/-/react-native-permissions-2.1.5.tgz#6cfc4f1ab1590f4952299b7cdc9698525ad540e0"
+  integrity sha512-b9KO/4UEV9qddl+kcSybmdk8nlAifclSDBR2rSvc5KZM06vIaJWJNIzK2ZwPXqDQ5yD3CJLuKTRj7Fz+jM9qyQ==
+
 react-native@0.62.2:
   version "0.62.2"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.62.2.tgz#d831e11a3178705449142df19a70ac2ca16bad10"
@@ -6704,6 +6712,16 @@ unset-value@^1.0.0:
   dependencies:
     has-value "^0.3.1"
     isobject "^3.0.0"
+
+urbanairship-gimbal-adapter-react-native@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/urbanairship-gimbal-adapter-react-native/-/urbanairship-gimbal-adapter-react-native-1.1.1.tgz#808837b87c5e54ed198e834ffc987cf7e1d02138"
+  integrity sha512-c6wBmrlCfrTcye/YKtuDDQ99WL8++jv0pDL9+Is7vAp5W67C3y0Qcw1/BwATtAhNCcWFFYC7K9DvEzTGJSEFTw==
+
+urbanairship-react-native@^6.1.3:
+  version "6.1.3"
+  resolved "https://registry.yarnpkg.com/urbanairship-react-native/-/urbanairship-react-native-6.1.3.tgz#ac15c57f70538c3307745b9e941f401b722c85d7"
+  integrity sha512-9MgA+DQ9868KTylgILAaLXf5RrFy5C4amE7nj0gx67ogwzgwjko7vsfvH0rf/VMgzCU4sv6ZQCVON5Camq+uXQ==
 
 uri-js@^4.2.2:
   version "4.2.2"

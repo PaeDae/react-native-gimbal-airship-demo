@@ -16,10 +16,11 @@
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* RNGimbalAirshipDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* RNGimbalAirshipDemoTests.m */; };
-		4293606604BEB92600DBDC3E /* libPods-RNGimbalAirshipDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1AEA5719FD2494041601FA5 /* libPods-RNGimbalAirshipDemo.a */; };
-		579EC37C1CC602AD8E50B7A7 /* libPods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B555494BB02D1E4C2F37AFB2 /* libPods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.a */; };
-		8093785D41816027B7B1428F /* libPods-RNGimbalAirshipDemo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 236733D0177D63A9458C733A /* libPods-RNGimbalAirshipDemo-tvOS.a */; };
-		C33B36942A22B6BF47270900 /* libPods-RNGimbalAirshipDemo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A78F0EB365FE98E9669F582 /* libPods-RNGimbalAirshipDemo-tvOSTests.a */; };
+		660F81184257A52E1D2AF05E /* libPods-RNGimbalAirshipDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 086331A24E8E6AA41CD9B647 /* libPods-RNGimbalAirshipDemo.a */; };
+		6CA03CC32DB742EEC9BBA0F5 /* libPods-RNGimbalAirshipDemo-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E1BCA9E94DFEA371C25D10C /* libPods-RNGimbalAirshipDemo-tvOSTests.a */; };
+		817759E6A7490895F67B63B5 /* libPods-RNGimbalAirshipDemo-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F5D34EF62C5A4405C40BA47 /* libPods-RNGimbalAirshipDemo-tvOS.a */; };
+		8E01566F365F7DEC59982643 /* libPods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 89CA49BD23DF4EA54E909F0D /* libPods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.a */; };
+		A4FDCD3A246F0449002B8BE5 /* AirshipConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = A4FDCD39246F0449002B8BE5 /* AirshipConfig.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		00E356EE1AD99517003FC87E /* RNGimbalAirshipDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNGimbalAirshipDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* RNGimbalAirshipDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNGimbalAirshipDemoTests.m; sourceTree = "<group>"; };
+		086331A24E8E6AA41CD9B647 /* libPods-RNGimbalAirshipDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNGimbalAirshipDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* RNGimbalAirshipDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RNGimbalAirshipDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = RNGimbalAirshipDemo/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = RNGimbalAirshipDemo/AppDelegate.m; sourceTree = "<group>"; };
@@ -51,22 +53,22 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = RNGimbalAirshipDemo/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = RNGimbalAirshipDemo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = RNGimbalAirshipDemo/main.m; sourceTree = "<group>"; };
-		236733D0177D63A9458C733A /* libPods-RNGimbalAirshipDemo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNGimbalAirshipDemo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22947AC5DF3B3CB0FD8E6EA8 /* Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.release.xcconfig"; path = "Target Support Files/Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests/Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		2D02E47B1E0B4A5D006451C7 /* RNGimbalAirshipDemo-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RNGimbalAirshipDemo-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* RNGimbalAirshipDemo-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RNGimbalAirshipDemo-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5A78F0EB365FE98E9669F582 /* libPods-RNGimbalAirshipDemo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNGimbalAirshipDemo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		67C383963219E6575B16DB3D /* Pods-RNGimbalAirshipDemo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalAirshipDemo-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RNGimbalAirshipDemo-tvOSTests/Pods-RNGimbalAirshipDemo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		7F49F092C7FC7F7ADC806C79 /* Pods-RNGimbalAirshipDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalAirshipDemo.debug.xcconfig"; path = "Target Support Files/Pods-RNGimbalAirshipDemo/Pods-RNGimbalAirshipDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		819B6BB02D1FF16FBEBBA2EB /* Pods-RNGimbalAirshipDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalAirshipDemo.release.xcconfig"; path = "Target Support Files/Pods-RNGimbalAirshipDemo/Pods-RNGimbalAirshipDemo.release.xcconfig"; sourceTree = "<group>"; };
-		8860BB2B0C25B872BFFECE16 /* Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.release.xcconfig"; path = "Target Support Files/Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests/Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		9D671DCE5223A79FD053BED5 /* Pods-RNGimbalAirshipDemo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalAirshipDemo-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RNGimbalAirshipDemo-tvOSTests/Pods-RNGimbalAirshipDemo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A1AEA5719FD2494041601FA5 /* libPods-RNGimbalAirshipDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNGimbalAirshipDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B555494BB02D1E4C2F37AFB2 /* libPods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B6BF5A3CE40C8F7BF6A47BCC /* Pods-RNGimbalAirshipDemo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalAirshipDemo-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RNGimbalAirshipDemo-tvOS/Pods-RNGimbalAirshipDemo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		B9CB954ED561240ABDAE65CB /* Pods-RNGimbalAirshipDemo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalAirshipDemo-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RNGimbalAirshipDemo-tvOS/Pods-RNGimbalAirshipDemo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		31FC1D87A8CDE641439302D6 /* Pods-RNGimbalAirshipDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalAirshipDemo.debug.xcconfig"; path = "Target Support Files/Pods-RNGimbalAirshipDemo/Pods-RNGimbalAirshipDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3E1BCA9E94DFEA371C25D10C /* libPods-RNGimbalAirshipDemo-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNGimbalAirshipDemo-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		52F178E0CDE15DAAFCB230CF /* Pods-RNGimbalAirshipDemo-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalAirshipDemo-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-RNGimbalAirshipDemo-tvOS/Pods-RNGimbalAirshipDemo-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		5680C1CD27A8B801A5969CC2 /* Pods-RNGimbalAirshipDemo-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalAirshipDemo-tvOS.release.xcconfig"; path = "Target Support Files/Pods-RNGimbalAirshipDemo-tvOS/Pods-RNGimbalAirshipDemo-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		89CA49BD23DF4EA54E909F0D /* libPods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F5D34EF62C5A4405C40BA47 /* libPods-RNGimbalAirshipDemo-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNGimbalAirshipDemo-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB31BF879F51101F9BE3074 /* Pods-RNGimbalAirshipDemo-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalAirshipDemo-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-RNGimbalAirshipDemo-tvOSTests/Pods-RNGimbalAirshipDemo-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9CD9D723534FF447DC40D836 /* Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests/Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4FDCD39246F0449002B8BE5 /* AirshipConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AirshipConfig.plist; sourceTree = "<group>"; };
+		E981DB58F5CDB04604A65D52 /* Pods-RNGimbalAirshipDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalAirshipDemo.release.xcconfig"; path = "Target Support Files/Pods-RNGimbalAirshipDemo/Pods-RNGimbalAirshipDemo.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
-		F9A59F43FE0E6DAD86534A99 /* Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests/Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EE351DF32BB0F122DBDF497A /* Pods-RNGimbalAirshipDemo-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNGimbalAirshipDemo-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-RNGimbalAirshipDemo-tvOSTests/Pods-RNGimbalAirshipDemo-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				579EC37C1CC602AD8E50B7A7 /* libPods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.a in Frameworks */,
+				8E01566F365F7DEC59982643 /* libPods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4293606604BEB92600DBDC3E /* libPods-RNGimbalAirshipDemo.a in Frameworks */,
+				660F81184257A52E1D2AF05E /* libPods-RNGimbalAirshipDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8093785D41816027B7B1428F /* libPods-RNGimbalAirshipDemo-tvOS.a in Frameworks */,
+				817759E6A7490895F67B63B5 /* libPods-RNGimbalAirshipDemo-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C33B36942A22B6BF47270900 /* libPods-RNGimbalAirshipDemo-tvOSTests.a in Frameworks */,
+				6CA03CC32DB742EEC9BBA0F5 /* libPods-RNGimbalAirshipDemo-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +127,7 @@
 		13B07FAE1A68108700A75B9A /* RNGimbalAirshipDemo */ = {
 			isa = PBXGroup;
 			children = (
+				A4FDCD39246F0449002B8BE5 /* AirshipConfig.plist */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -141,10 +144,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				A1AEA5719FD2494041601FA5 /* libPods-RNGimbalAirshipDemo.a */,
-				B555494BB02D1E4C2F37AFB2 /* libPods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.a */,
-				236733D0177D63A9458C733A /* libPods-RNGimbalAirshipDemo-tvOS.a */,
-				5A78F0EB365FE98E9669F582 /* libPods-RNGimbalAirshipDemo-tvOSTests.a */,
+				086331A24E8E6AA41CD9B647 /* libPods-RNGimbalAirshipDemo.a */,
+				89CA49BD23DF4EA54E909F0D /* libPods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.a */,
+				8F5D34EF62C5A4405C40BA47 /* libPods-RNGimbalAirshipDemo-tvOS.a */,
+				3E1BCA9E94DFEA371C25D10C /* libPods-RNGimbalAirshipDemo-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -185,14 +188,14 @@
 		C14710E1DB5A284048F25275 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				7F49F092C7FC7F7ADC806C79 /* Pods-RNGimbalAirshipDemo.debug.xcconfig */,
-				819B6BB02D1FF16FBEBBA2EB /* Pods-RNGimbalAirshipDemo.release.xcconfig */,
-				F9A59F43FE0E6DAD86534A99 /* Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.debug.xcconfig */,
-				8860BB2B0C25B872BFFECE16 /* Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.release.xcconfig */,
-				B6BF5A3CE40C8F7BF6A47BCC /* Pods-RNGimbalAirshipDemo-tvOS.debug.xcconfig */,
-				B9CB954ED561240ABDAE65CB /* Pods-RNGimbalAirshipDemo-tvOS.release.xcconfig */,
-				9D671DCE5223A79FD053BED5 /* Pods-RNGimbalAirshipDemo-tvOSTests.debug.xcconfig */,
-				67C383963219E6575B16DB3D /* Pods-RNGimbalAirshipDemo-tvOSTests.release.xcconfig */,
+				31FC1D87A8CDE641439302D6 /* Pods-RNGimbalAirshipDemo.debug.xcconfig */,
+				E981DB58F5CDB04604A65D52 /* Pods-RNGimbalAirshipDemo.release.xcconfig */,
+				9CD9D723534FF447DC40D836 /* Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.debug.xcconfig */,
+				22947AC5DF3B3CB0FD8E6EA8 /* Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.release.xcconfig */,
+				52F178E0CDE15DAAFCB230CF /* Pods-RNGimbalAirshipDemo-tvOS.debug.xcconfig */,
+				5680C1CD27A8B801A5969CC2 /* Pods-RNGimbalAirshipDemo-tvOS.release.xcconfig */,
+				8FB31BF879F51101F9BE3074 /* Pods-RNGimbalAirshipDemo-tvOSTests.debug.xcconfig */,
+				EE351DF32BB0F122DBDF497A /* Pods-RNGimbalAirshipDemo-tvOSTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -204,10 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "RNGimbalAirshipDemoTests" */;
 			buildPhases = (
-				97253EBB1315702D7D4D0DFA /* [CP] Check Pods Manifest.lock */,
+				3C4E5681DEB70981EA9B8E9B /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
 				00E356EC1AD99517003FC87E /* Resources */,
+				E64FB1B3BB7D7D2D538FAE11 /* [CP] Embed Pods Frameworks */,
+				45B0C14A6EC3D1B65CB26ECC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -223,12 +228,14 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "RNGimbalAirshipDemo" */;
 			buildPhases = (
-				9AF994D2E2F8D50342882E70 /* [CP] Check Pods Manifest.lock */,
+				65317AD916FBE190E1D0C9F2 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
 				13B07F871A680F5B00A75B9A /* Sources */,
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				45F4AE7E8126CDF3B9FC7A72 /* [CP] Embed Pods Frameworks */,
+				5F8F5FA1C5C351268D041A32 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,7 +250,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNGimbalAirshipDemo-tvOS" */;
 			buildPhases = (
-				1DEED4D39D32628B84D04974 /* [CP] Check Pods Manifest.lock */,
+				25A85523517609EC358CD667 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F122414F3F0027D42C /* Start Packager */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
 				2D02E4781E0B4A5D006451C7 /* Frameworks */,
@@ -263,7 +270,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "RNGimbalAirshipDemo-tvOSTests" */;
 			buildPhases = (
-				A09845EBCF40523016777745 /* [CP] Check Pods Manifest.lock */,
+				6541221D51BEF495D1386899 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
 				2D02E48D1E0B4A5D006451C7 /* Frameworks */,
 				2D02E48E1E0B4A5D006451C7 /* Resources */,
@@ -338,6 +345,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A4FDCD3A246F0449002B8BE5 /* AirshipConfig.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
 			);
@@ -375,7 +383,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		1DEED4D39D32628B84D04974 /* [CP] Check Pods Manifest.lock */ = {
+		25A85523517609EC358CD667 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -411,7 +419,7 @@
 			shellPath = /bin/sh;
 			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh";
 		};
-		97253EBB1315702D7D4D0DFA /* [CP] Check Pods Manifest.lock */ = {
+		3C4E5681DEB70981EA9B8E9B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -433,7 +441,269 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9AF994D2E2F8D50342882E70 /* [CP] Check Pods Manifest.lock */ = {
+		45B0C14A6EC3D1B65CB26ECC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests/Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests-resources.sh",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAAutomationActions.plist",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAInAppMessageBannerContentView.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAInAppMessageBannerView.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAInAppMessageButtonView.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAInAppMessageFullScreenViewController.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAInAppMessageHTMLViewController.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAInAppMessageModalViewController.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAInAppMessageResizableViewController.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAAutomation.xcdatamodeld",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/ar.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/cs.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/da.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/de.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/en.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/es-419.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/es.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/fi.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/fr.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/hi.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/hu.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/id.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/it.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/iw.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/ja.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/ko.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/ms.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/nl.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/no.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/pl.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/pt-PT.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/pt.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/ro.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/ru.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/sk.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/sv.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/th.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/tr.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/UAEvents.xcdatamodeld",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/UARemoteData.xcdatamodeld",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/vi.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/zh-Hans.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/zh-Hant.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/ios/UADefaultActions.plist",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/ios/UANativeBridge",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/ios/UANotificationCategories.plist",
+				"${PODS_ROOT}/Airship/Airship/AirshipExtendedActions/Resources/UAExtendedActions.plist",
+				"${PODS_ROOT}/Airship/Airship/AirshipExtendedActions/Resources/UARateAppPromptView.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipMessageCenter/Resources/UAMessageCenterActions.plist",
+				"${PODS_ROOT}/Airship/Airship/AirshipMessageCenter/Resources/UAMessageCenterListCell.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipMessageCenter/Resources/UAMessageCenterListViewController.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipMessageCenter/Resources/UAMessageCenterMessageViewController.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipMessageCenter/Resources/UAMessageCenterPlaceholderIcon.png",
+				"${PODS_ROOT}/Airship/Airship/AirshipMessageCenter/Resources/UAInbox.xcdatamodeld",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAAutomationActions.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAInAppMessageBannerContentView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAInAppMessageBannerView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAInAppMessageButtonView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAInAppMessageFullScreenViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAInAppMessageHTMLViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAInAppMessageModalViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAInAppMessageResizableViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAAutomation.momd",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ar.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cs.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/da.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/de.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es-419.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fi.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hi.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hu.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/id.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/it.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/iw.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ja.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ko.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ms.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nl.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/no.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pl.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt-PT.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ro.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ru.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sk.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sv.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/th.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAEvents.momd",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UARemoteData.momd",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/vi.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hant.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UADefaultActions.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UANativeBridge",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UANotificationCategories.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAExtendedActions.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UARateAppPromptView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAMessageCenterActions.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAMessageCenterListCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAMessageCenterListViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAMessageCenterMessageViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAMessageCenterPlaceholderIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAInbox.momd",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests/Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45F4AE7E8126CDF3B9FC7A72 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNGimbalAirshipDemo/Pods-RNGimbalAirshipDemo-frameworks.sh",
+				"${PODS_ROOT}/Gimbal/Frameworks/Gimbal.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gimbal.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNGimbalAirshipDemo/Pods-RNGimbalAirshipDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F8F5FA1C5C351268D041A32 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNGimbalAirshipDemo/Pods-RNGimbalAirshipDemo-resources.sh",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAAutomationActions.plist",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAInAppMessageBannerContentView.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAInAppMessageBannerView.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAInAppMessageButtonView.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAInAppMessageFullScreenViewController.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAInAppMessageHTMLViewController.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAInAppMessageModalViewController.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAInAppMessageResizableViewController.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipAutomation/Resources/UAAutomation.xcdatamodeld",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/ar.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/cs.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/da.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/de.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/en.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/es-419.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/es.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/fi.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/fr.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/hi.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/hu.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/id.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/it.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/iw.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/ja.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/ko.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/ms.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/nl.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/no.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/pl.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/pt-PT.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/pt.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/ro.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/ru.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/sk.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/sv.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/th.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/tr.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/UAEvents.xcdatamodeld",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/UARemoteData.xcdatamodeld",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/vi.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/zh-Hans.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/common/zh-Hant.lproj",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/ios/UADefaultActions.plist",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/ios/UANativeBridge",
+				"${PODS_ROOT}/Airship/Airship/AirshipCore/Resources/ios/UANotificationCategories.plist",
+				"${PODS_ROOT}/Airship/Airship/AirshipExtendedActions/Resources/UAExtendedActions.plist",
+				"${PODS_ROOT}/Airship/Airship/AirshipExtendedActions/Resources/UARateAppPromptView.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipMessageCenter/Resources/UAMessageCenterActions.plist",
+				"${PODS_ROOT}/Airship/Airship/AirshipMessageCenter/Resources/UAMessageCenterListCell.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipMessageCenter/Resources/UAMessageCenterListViewController.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipMessageCenter/Resources/UAMessageCenterMessageViewController.xib",
+				"${PODS_ROOT}/Airship/Airship/AirshipMessageCenter/Resources/UAMessageCenterPlaceholderIcon.png",
+				"${PODS_ROOT}/Airship/Airship/AirshipMessageCenter/Resources/UAInbox.xcdatamodeld",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAAutomationActions.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAInAppMessageBannerContentView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAInAppMessageBannerView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAInAppMessageButtonView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAInAppMessageFullScreenViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAInAppMessageHTMLViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAInAppMessageModalViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAInAppMessageResizableViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAAutomation.momd",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ar.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/cs.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/da.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/de.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/en.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es-419.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/es.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fi.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/fr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hi.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/hu.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/id.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/it.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/iw.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ja.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ko.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ms.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/nl.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/no.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pl.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt-PT.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/pt.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ro.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/ru.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sk.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/sv.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/th.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/tr.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAEvents.momd",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UARemoteData.momd",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/vi.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hans.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/zh-Hant.lproj",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UADefaultActions.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UANativeBridge",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UANotificationCategories.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAExtendedActions.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UARateAppPromptView.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAMessageCenterActions.plist",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAMessageCenterListCell.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAMessageCenterListViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAMessageCenterMessageViewController.nib",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAMessageCenterPlaceholderIcon.png",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UAInbox.momd",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNGimbalAirshipDemo/Pods-RNGimbalAirshipDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65317AD916FBE190E1D0C9F2 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -455,7 +725,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A09845EBCF40523016777745 /* [CP] Check Pods Manifest.lock */ = {
+		6541221D51BEF495D1386899 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -475,6 +745,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E64FB1B3BB7D7D2D538FAE11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests/Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests-frameworks.sh",
+				"${PODS_ROOT}/Gimbal/Frameworks/Gimbal.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Gimbal.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests/Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -582,7 +870,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F9A59F43FE0E6DAD86534A99 /* Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.debug.xcconfig */;
+			baseConfigurationReference = 9CD9D723534FF447DC40D836 /* Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -605,7 +893,7 @@
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8860BB2B0C25B872BFFECE16 /* Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.release.xcconfig */;
+			baseConfigurationReference = 22947AC5DF3B3CB0FD8E6EA8 /* Pods-RNGimbalAirshipDemo-RNGimbalAirshipDemoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
@@ -625,7 +913,7 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F49F092C7FC7F7ADC806C79 /* Pods-RNGimbalAirshipDemo.debug.xcconfig */;
+			baseConfigurationReference = 31FC1D87A8CDE641439302D6 /* Pods-RNGimbalAirshipDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -637,6 +925,7 @@
 					"FB_SONARKIT_ENABLED=1",
 				);
 				INFOPLIST_FILE = RNGimbalAirshipDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -653,13 +942,14 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 819B6BB02D1FF16FBEBBA2EB /* Pods-RNGimbalAirshipDemo.release.xcconfig */;
+			baseConfigurationReference = E981DB58F5CDB04604A65D52 /* Pods-RNGimbalAirshipDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 3ETG9R4M5P;
 				INFOPLIST_FILE = RNGimbalAirshipDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -675,7 +965,7 @@
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B6BF5A3CE40C8F7BF6A47BCC /* Pods-RNGimbalAirshipDemo-tvOS.debug.xcconfig */;
+			baseConfigurationReference = 52F178E0CDE15DAAFCB230CF /* Pods-RNGimbalAirshipDemo-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -703,7 +993,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B9CB954ED561240ABDAE65CB /* Pods-RNGimbalAirshipDemo-tvOS.release.xcconfig */;
+			baseConfigurationReference = 5680C1CD27A8B801A5969CC2 /* Pods-RNGimbalAirshipDemo-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -731,7 +1021,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9D671DCE5223A79FD053BED5 /* Pods-RNGimbalAirshipDemo-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = 8FB31BF879F51101F9BE3074 /* Pods-RNGimbalAirshipDemo-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -758,7 +1048,7 @@
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 67C383963219E6575B16DB3D /* Pods-RNGimbalAirshipDemo-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = EE351DF32BB0F122DBDF497A /* Pods-RNGimbalAirshipDemo-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
