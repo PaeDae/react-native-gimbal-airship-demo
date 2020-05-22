@@ -35,14 +35,12 @@ import RNGimbal, {
 } from 'react-native-gimbal';
 
 import {
-  Header,
-  LearnMoreLinks,
-  Colors,
-  DebugInstructions,
-  ReloadInstructions,
-} from 'react-native/Libraries/NewAppScreen';
+  UrbanAirship,
+} from 'urbanairship-react-native'
 
 import { AirshipGimbalAdapter } from 'urbanairship-gimbal-adapter-react-native';
+
+import Constants from './constants';
 
 export default class App extends Component<{}> {
   constructor(props) {
@@ -82,11 +80,12 @@ export default class App extends Component<{}> {
       ios: () => 'YOUR_GIMBAL_IOS_API_KEY',
       android: () => 'YOUR_GIMBAL_ANDROID_API_KEY',
     })();
+
+    UrbanAirship.setUserNotificationsEnabled(true);
   };
 
   componentDidMount() {
     this.checkPermissionState();
-    // this.checkPlaceMonitoringState();
   }
 
   componentWillUnmount() {
@@ -157,10 +156,13 @@ export default class App extends Component<{}> {
 
   // Airship Adapter
   startAirShip = async () => {
-    if (!this.isPermissionsGranted()) {
+    const permissionsGranted = await this.isPermissionsGranted();
+    if (!permissionsGranted) {
       this.requestPermissions();
       return;
-    };
+    }
+
+    this.setAirshipNotificationConfiguration();
 
     try {
       const status = await AirshipGimbalAdapter.start(this.GIMBAL_APP_API_KEY);
@@ -185,6 +187,21 @@ export default class App extends Component<{}> {
     AirshipGimbalAdapter.stop();
 
     this.setState({ airShipStatus: false });
+  };
+
+  setAirshipNotificationConfiguration = () => {
+    let configurationMethod = Platform.select({
+      ios: () => {
+        UrbanAirship.setForegroundPresentationOptions({
+          alert: true,
+          badge: true,
+          sounds: true
+        });
+      },
+      android: () => UrbanAirship.setAndroidNotificationConfig({})
+    });
+
+    configurationMethod();
   };
 
   // Gimbal module
