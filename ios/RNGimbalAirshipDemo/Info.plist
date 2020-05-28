@@ -37,6 +37,8 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>To detect beacons</string>
 	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
 	<string>To test location events</string>
 	<key>NSLocationAlwaysUsageDescription</key>

@@ -74,6 +74,8 @@ export default class App extends Component<{}> {
       isMonitoringEstablishedLocation: false,
       establishedLocationStatus: false,
       establishedLocations: [],
+      lastAirshipRegionEnter: '--',
+      lastAirshipRegionExit: '--'
     };
 
     this.GIMBAL_APP_API_KEY = Platform.select({
@@ -86,6 +88,7 @@ export default class App extends Component<{}> {
 
   componentDidMount() {
     this.checkPermissionState();
+    this.setAirshipListeners();
   }
 
   componentWillUnmount() {
@@ -202,6 +205,20 @@ export default class App extends Component<{}> {
     });
 
     configurationMethod();
+  };
+
+  setAirshipListeners = () => {
+    AirshipGimbalAdapter.addListener("regionEnter", (event) => {
+      let regionName = event.place.name;
+      let arrivalTime = event.arrivalTime;
+      this.setState({ lastAirshipRegionEnter : `${regionName}, ${arrivalTime}` });
+    });
+
+    AirshipGimbalAdapter.addListener("regionExit", (event) => {
+      let regionName = event.place.name;
+      let departureTime = event.departureTime;
+      this.setState({ lastAirshipRegionExit : `${regionName}, ${departureTime}` });
+    });
   };
 
   // Gimbal module
@@ -535,6 +552,8 @@ export default class App extends Component<{}> {
           <Text style={styles.welcome}>☆ Airship DEMO ☆</Text>
           <Text style={styles.instructions}>Airship Status: {this.state.airShipStatus.toString()}</Text>
           <Text style={styles.instructions}>Airship Started? {this.state.isAirShipStarted.toString()}</Text>
+          <Text style={styles.instructions}>Region Enter Event: {this.state.lastAirshipRegionEnter}</Text>
+          <Text style={styles.instructions}>Region Exit Event: {this.state.lastAirshipRegionExit}</Text>
           <View style={styles.hr}></View>
           <View style={styles.row}>
             <Button title='Start' onPress={this.startAirShip} />
@@ -552,9 +571,6 @@ export default class App extends Component<{}> {
             <Button title='Start' onPress={this.startGimbal} />
             <Button title='Stop' onPress={this.stopGimbal} />
             <Button title='Started?' onPress={this.isGimbalSDKStarted} />
-          </View>
-          <View style={styles.hr}></View>
-          <View style={styles.row}>
             <Button title='App Identifier' onPress={this.getAppInstanceIdentifier} />
           </View>
 
